@@ -11,8 +11,8 @@
 
 def square_array(array)
 
-  array.length.times < array.length do
-  new_array.push(array[counter]**2)
+  array.length.times do |squared|
+  new_array.push(array[squared]**2)
   counter += 1
 end
   new_array
