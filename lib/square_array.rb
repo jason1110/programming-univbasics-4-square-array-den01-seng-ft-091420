@@ -8,5 +8,3 @@ end
   new_array
 end
 
-
-square_array(numbers)
