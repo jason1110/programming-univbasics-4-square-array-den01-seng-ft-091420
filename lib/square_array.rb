@@ -13,7 +13,6 @@ def square_array(array)
 
   array.length.times do |squared|
   new_array.push(array[squared]**2)
-  counter += 1
 end
   new_array
 end
