@@ -10,7 +10,7 @@
 
 
 def square_array(array)
-
+new_array = []
   array.length.times do |squared|
   new_array.push(array[squared]**2)
 end
